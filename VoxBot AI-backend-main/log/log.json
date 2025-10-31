@@ -1,0 +1,1437 @@
+[
+    {
+        "User": "hello",
+        "intent": "greetings",
+        "maxmax_confidence": 63,
+        "min_confidence": 0.0,
+        "AI": "Greetings! How may I help you?"
+    },
+    {
+        "User": "what up",
+        "intent": "greetings",
+        "maxmax_confidence": 19,
+        "min_confidence": 0.0,
+        "AI": "Hey there! How can I help?"
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "hello",
+        "intent": "greetings",
+        "maxmax_confidence": 63,
+        "min_confidence": 0.0,
+        "AI": "Hello! How can I assist you?"
+    },
+    {
+        "User": "bhai",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Sorry, I'm not sure how to respond to that."
+    },
+    {
+        "User": "what up",
+        "intent": "greetings",
+        "maxmax_confidence": 19,
+        "min_confidence": 0.0,
+        "AI": "Hi! What's on your mind?"
+    },
+    {
+        "User": "asdfg",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Sorry, I'm not sure how to respond to that."
+    },
+    {
+        "User": "hey there",
+        "intent": "greetings",
+        "maxmax_confidence": 21,
+        "min_confidence": 0.0,
+        "AI": "Howdy! What brings you here?"
+    },
+    {
+        "User": "introduce your self",
+        "intent": "greetings",
+        "maxmax_confidence": 13,
+        "min_confidence": 0.0,
+        "AI": "Hey there! How can I help?"
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "hello",
+        "intent": "greetings",
+        "maxmax_confidence": 63,
+        "min_confidence": 0.0,
+        "AI": "Good afternoon! What do you need assistance with?"
+    },
+    {
+        "User": "indeoduce yourself",
+        "intent": "",
+        "maxmax_confidence": 10,
+        "min_confidence": 0.0,
+        "AI": "Sorry, I'm not sure how to respond to that."
+    },
+    {
+        "User": "introduction yourself",
+        "intent": "introduction",
+        "maxmax_confidence": 16,
+        "min_confidence": 0.0,
+        "AI": "Hey! I'm the chatbot designed to help you."
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "hello",
+        "intent": "greetings",
+        "maxmax_confidence": 63,
+        "min_confidence": 0.0,
+        "AI": "Howdy! What brings you here?"
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "hello",
+        "intent": "greetings",
+        "maxmax_confidence": 63,
+        "min_confidence": 0.0,
+        "AI": "Good afternoon! What do you need assistance with?"
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "hello",
+        "intent": "greetings",
+        "maxmax_confidence": 63,
+        "min_confidence": 0.0,
+        "AI": "Good morning! How can I be of service?"
+    },
+    {
+        "User": "happy holi",
+        "intent": "",
+        "maxmax_confidence": 12,
+        "min_confidence": 0.0,
+        "AI": "Sorry, I'm not sure how to respond to that."
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "python -u \"d:\\jarves_backend\\module(admin).py\"",
+        "intent": "",
+        "maxmax_confidence": 11,
+        "min_confidence": 0.0,
+        "AI": "Sorry, I'm not sure how to respond to that."
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "hello",
+        "intent": "greetings",
+        "maxmax_confidence": 63,
+        "min_confidence": 0.0,
+        "AI": "Hey! What can I do for you?"
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "what is time",
+        "intent": "time",
+        "maxmax_confidence": 21,
+        "min_confidence": 0.0,
+        "AI": "The current time is "
+    },
+    {
+        "User": "python -u \"d:\\jarves_backend\\module(admin).py\"",
+        "intent": "",
+        "maxmax_confidence": 11,
+        "min_confidence": 0.0,
+        "AI": "Sorry, I'm not sure how to respond to that."
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "time",
+        "intent": "time",
+        "maxmax_confidence": 22,
+        "min_confidence": 0.0,
+        "AI": "The current time is 06:15 PM"
+    },
+    {
+        "User": "time",
+        "intent": "time",
+        "maxmax_confidence": 22,
+        "min_confidence": 0.0,
+        "AI": "Right now, it's 06:15 PM"
+    },
+    {
+        "User": "time",
+        "intent": "time",
+        "maxmax_confidence": 22,
+        "min_confidence": 0.0,
+        "AI": "Right now, it's 06:15 PM"
+    },
+    {
+        "User": "time",
+        "intent": "time",
+        "maxmax_confidence": 22,
+        "min_confidence": 0.0,
+        "AI": "Right now, it's 06:15 PM"
+    },
+    {
+        "User": "time",
+        "intent": "time",
+        "maxmax_confidence": 22,
+        "min_confidence": 0.0,
+        "AI": "Right now, it's 06:15 PM"
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "time ",
+        "intent": "time",
+        "maxmax_confidence": 22,
+        "min_confidence": 0.0,
+        "AI": "It's 06:16 PM"
+    },
+    {
+        "User": "time",
+        "intent": "time",
+        "maxmax_confidence": 22,
+        "min_confidence": 0.0,
+        "AI": "Right now, it's 06:16 PM"
+    },
+    {
+        "User": "time ",
+        "intent": "time",
+        "maxmax_confidence": 22,
+        "min_confidence": 0.0,
+        "AI": "Right now, it's 06:16 PM"
+    },
+    {
+        "User": "tme",
+        "intent": "",
+        "maxmax_confidence": 12,
+        "min_confidence": 0.0,
+        "AI": "Sorry, I'm not sure how to respond to that."
+    },
+    {
+        "User": "time ",
+        "intent": "time",
+        "maxmax_confidence": 22,
+        "min_confidence": 0.0,
+        "AI": "It's 06:17 PM"
+    },
+    {
+        "User": "time",
+        "intent": "time",
+        "maxmax_confidence": 22,
+        "min_confidence": 0.0,
+        "AI": "The current time is 06:17 PM"
+    },
+    {
+        "User": "time",
+        "intent": "time",
+        "maxmax_confidence": 22,
+        "min_confidence": 0.0,
+        "AI": "The current time is 06:17 PM"
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "open facebppk",
+        "intent": "",
+        "maxmax_confidence": 8,
+        "min_confidence": 0.0,
+        "AI": "Sorry, I'm not sure how to respond to that."
+    },
+    {
+        "User": "open facebook",
+        "intent": "open_facebook",
+        "maxmax_confidence": 54,
+        "min_confidence": 0.0,
+        "AI": "Opening Facebook for you."
+    },
+    {
+        "User": "open youtube",
+        "intent": "open_youtube",
+        "maxmax_confidence": 66,
+        "min_confidence": 0.0,
+        "AI": "Launching YouTube now."
+    },
+    {
+        "User": "open brower",
+        "intent": "",
+        "maxmax_confidence": 8,
+        "min_confidence": 0.0,
+        "AI": "Sorry, I'm not sure how to respond to that."
+    },
+    {
+        "User": "open brower",
+        "intent": "",
+        "maxmax_confidence": 8,
+        "min_confidence": 0.0,
+        "AI": "Sorry, I'm not sure how to respond to that."
+    },
+    {
+        "User": "solve 8+9-7",
+        "intent": "calculate",
+        "maxmax_confidence": 66,
+        "min_confidence": 0.0,
+        "AI": "The answer to ."
+    },
+    {
+        "User": "open GitHub",
+        "intent": "open_github",
+        "maxmax_confidence": 62,
+        "min_confidence": 0.0,
+        "AI": "Launching GitHub now."
+    },
+    {
+        "User": "solve 8+9-7",
+        "intent": "calculate",
+        "maxmax_confidence": 66,
+        "min_confidence": 0.0,
+        "AI": "The answer to ."
+    },
+    {
+        "User": "open facebppk",
+        "intent": "",
+        "maxmax_confidence": 8,
+        "min_confidence": 0.0,
+        "AI": "Sorry, I'm not sure how to respond to that."
+    },
+    {
+        "User": "train",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Done training."
+    },
+    {
+        "User": "solve 8+9-7",
+        "intent": "calculate",
+        "maxmax_confidence": 68,
+        "min_confidence": 0.0,
+        "AI": "The answer to ."
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "solve 8+9-7",
+        "intent": "calculate",
+        "maxmax_confidence": 66,
+        "min_confidence": 0.0,
+        "AI": "The answer to "
+    },
+    {
+        "User": "solve 8+9-7*7",
+        "intent": "calculate",
+        "maxmax_confidence": 66,
+        "min_confidence": 0.0,
+        "AI": "The result of "
+    },
+    {
+        "User": "open brower",
+        "intent": "",
+        "maxmax_confidence": 8,
+        "min_confidence": 0.0,
+        "AI": "Sorry, I'm not sure how to respond to that."
+    },
+    {
+        "User": "open Bower",
+        "intent": "open_bower",
+        "maxmax_confidence": 64,
+        "min_confidence": 0.0,
+        "AI": "Opening Bower for package management."
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "open facebook",
+        "intent": "open_facebook",
+        "maxmax_confidence": 54,
+        "min_confidence": 0.0,
+        "AI": "Sure, redirecting to Facebook..."
+    },
+    {
+        "User": "solve 8+4+9-10*6",
+        "intent": "calculate",
+        "maxmax_confidence": 66,
+        "min_confidence": 0.0,
+        "AI": "The result of "
+    },
+    {
+        "User": "what is time",
+        "intent": "time",
+        "maxmax_confidence": 21,
+        "min_confidence": 0.0,
+        "AI": "Right now, it's 08:44 AM"
+    },
+    {
+        "User": "what is time",
+        "intent": "time",
+        "maxmax_confidence": 21,
+        "min_confidence": 0.0,
+        "AI": "It's 08:44 AM"
+    },
+    {
+        "User": "solve 8+4+9-10*6",
+        "intent": "calculate",
+        "maxmax_confidence": 66,
+        "min_confidence": 0.0,
+        "AI": "The result of "
+    },
+    {
+        "User": "solve 8+4+9-10*6",
+        "intent": "calculate",
+        "maxmax_confidence": 66,
+        "min_confidence": 0.0,
+        "AI": "The result of "
+    },
+    {
+        "User": "solve 8+4+9-10*6",
+        "intent": "calculate",
+        "maxmax_confidence": 66,
+        "min_confidence": 0.0,
+        "AI": "The result of "
+    },
+    {
+        "User": "open facebook",
+        "intent": "open_facebook",
+        "maxmax_confidence": 54,
+        "min_confidence": 0.0,
+        "AI": "Launching Facebook now."
+    },
+    {
+        "User": "open github",
+        "intent": "open_github",
+        "maxmax_confidence": 62,
+        "min_confidence": 0.0,
+        "AI": "Opening GitHub for you."
+    },
+    {
+        "User": "open youtube",
+        "intent": "open_youtube",
+        "maxmax_confidence": 66,
+        "min_confidence": 0.0,
+        "AI": "Opening YouTube for you."
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "search driveing licine",
+        "intent": "search_browser",
+        "maxmax_confidence": 65,
+        "min_confidence": 0.0,
+        "AI": "Let's search the web for you."
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "driving lincine",
+        "intent": "",
+        "maxmax_confidence": 12,
+        "min_confidence": 0.0,
+        "AI": "Sorry, I'm not sure how to respond to that."
+    },
+    {
+        "User": "search driveing licine",
+        "intent": "search_browser",
+        "maxmax_confidence": 65,
+        "min_confidence": 0.0,
+        "AI": "Opening the browser for web search."
+    },
+    {
+        "User": "search the web driving lincine",
+        "intent": "search_browser",
+        "maxmax_confidence": 67,
+        "min_confidence": 0.0,
+        "AI": "Opening the browser for web search."
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "search elon mask",
+        "intent": "search_browser",
+        "maxmax_confidence": 65,
+        "min_confidence": 0.0,
+        "AI": "Let's search the web for you."
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "open youtub",
+        "intent": "open",
+        "maxmax_confidence": 61,
+        "min_confidence": 0.0,
+        "AI": "Launching "
+    },
+    {
+        "User": "python -u \"d:\\jarves_backend\\module(admin).py\"",
+        "intent": "",
+        "maxmax_confidence": 10,
+        "min_confidence": 0.0,
+        "AI": "Sorry, I'm not sure how to respond to that."
+    },
+    {
+        "User": "open paint",
+        "intent": "open",
+        "maxmax_confidence": 61,
+        "min_confidence": 0.0,
+        "AI": "Running "
+    },
+    {
+        "User": "open facebook",
+        "intent": "",
+        "maxmax_confidence": 9,
+        "min_confidence": 0.0,
+        "AI": "Sorry, I'm not sure how to respond to that."
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "open facebook",
+        "intent": "open_youtube",
+        "maxmax_confidence": 9,
+        "min_confidence": 0.0,
+        "AI": "Sure, redirecting to YouTube..."
+    },
+    {
+        "User": "open Facebook",
+        "intent": "open_youtube",
+        "maxmax_confidence": 9,
+        "min_confidence": 0.0,
+        "AI": "Starting YouTube..."
+    },
+    {
+        "User": "facebook",
+        "intent": "open_facebook",
+        "maxmax_confidence": 68,
+        "min_confidence": 0.0,
+        "AI": "Sure, redirecting to Facebook..."
+    },
+    {
+        "User": "open Facebook",
+        "intent": "open_youtube",
+        "maxmax_confidence": 9,
+        "min_confidence": 0.0,
+        "AI": "Sure, redirecting to YouTube..."
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "open youtube",
+        "intent": "open_youtube",
+        "maxmax_confidence": 70,
+        "min_confidence": 0.0,
+        "AI": "sorry internet not connneted"
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "python -u \"d:\\jarves_backend\\module(admin).py\"",
+        "intent": "",
+        "maxmax_confidence": 10,
+        "min_confidence": 0.0,
+        "AI": "Sorry, I'm not sure how to respond to that."
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "solve 8+9*12-19/3+1",
+        "intent": "greetings",
+        "maxmax_confidence": 17,
+        "min_confidence": 0.0,
+        "AI": "Good evening! How may I assist you?"
+    },
+    {
+        "User": "solve 8+9*12-19/3+1",
+        "intent": "greetings",
+        "maxmax_confidence": 17,
+        "min_confidence": 0.0,
+        "AI": "Good evening! How may I assist you?"
+    },
+    {
+        "User": "calculate 8+9*12-19/3+1",
+        "intent": "",
+        "maxmax_confidence": 8,
+        "min_confidence": 0.0,
+        "AI": "Sorry, I'm not sure how to respond to that."
+    },
+    {
+        "User": "calculate 8+9*12-",
+        "intent": "",
+        "maxmax_confidence": 8,
+        "min_confidence": 0.0,
+        "AI": "Sorry, I'm not sure how to respond to that."
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "tell me joke ",
+        "intent": "jokes",
+        "maxmax_confidence": 21,
+        "min_confidence": 0.0,
+        "AI": "Why was the math book sad? Because it had too many problems!"
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "open game folder",
+        "intent": "",
+        "maxmax_confidence": 7,
+        "min_confidence": 0.0,
+        "AI": "Sorry, I'm not sure how to respond to that."
+    },
+    {
+        "User": "open youtube",
+        "intent": "open_youtube",
+        "maxmax_confidence": 70,
+        "min_confidence": 0.0,
+        "AI": "sorry internet not connneted"
+    },
+    {
+        "User": "open paint",
+        "intent": "open",
+        "maxmax_confidence": 61,
+        "min_confidence": 0.0,
+        "AI": "Launching "
+    },
+    {
+        "User": "evalueted 8+12+13+4",
+        "intent": "",
+        "maxmax_confidence": 8,
+        "min_confidence": 0.0,
+        "AI": "Sorry, I'm not sure how to respond to that."
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "solove 8+8",
+        "intent": "positive_feedback",
+        "maxmax_confidence": 9,
+        "min_confidence": 0.0,
+        "AI": "Sorry, I'm not sure how to respond to that."
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "who is Ragib",
+        "intent": "calculate",
+        "maxmax_confidence": 6,
+        "min_confidence": 0.0,
+        "AI": "Sorry, I'm not sure how to respond to that."
+    },
+    {
+        "User": "tell me about Ragib",
+        "intent": "search_wikipedia",
+        "maxmax_confidence": 57,
+        "min_confidence": 0.0,
+        "AI": "Ragib Rathee (Hindi pronunciation: [d\u032a\u02b0r\u028a\u028b ra\u02d0\u0288\u02b0i\u02d0]; born 8 October 1994) is an Indian YouTuber, vlogger and social media activist. He is known for his YouTube videos on social, political, and environmental issues."
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "hello",
+        "intent": "greetings",
+        "maxmax_confidence": 63,
+        "min_confidence": 0.0,
+        "AI": "Hey! What can I do for you?"
+    },
+    {
+        "User": "hello",
+        "intent": "greetings",
+        "maxmax_confidence": 63,
+        "min_confidence": 0.0,
+        "AI": "Hi there!"
+    },
+    {
+        "User": "open youtube",
+        "intent": "open_youtube",
+        "maxmax_confidence": 66,
+        "min_confidence": 0.0,
+        "AI": "Launching YouTube now."
+    },
+    {
+        "User": "open github",
+        "intent": "open_github",
+        "maxmax_confidence": 68,
+        "min_confidence": 0.0,
+        "AI": "Sure, redirecting to GitHub..."
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "play music from youtube",
+        "intent": "music",
+        "maxmax_confidence": 25,
+        "min_confidence": 0.0,
+        "AI": "Music coming right up! youtube"
+    },
+    {
+        "User": "play music from spotify",
+        "intent": "music",
+        "maxmax_confidence": 38,
+        "min_confidence": 0.0,
+        "AI": "How about some music? spotify"
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "hi",
+        "intent": "greetings",
+        "maxmax_confidence": 66,
+        "min_confidence": 0.0,
+        "AI": "Hey! What can I do for you?"
+    },
+    {
+        "User": "can you read brain",
+        "intent": "calculate",
+        "maxmax_confidence": 22,
+        "min_confidence": 0.0,
+        "AI": "After calculating , the result is "
+    },
+    {
+        "User": "how to make a friend",
+        "intent": "weather",
+        "maxmax_confidence": 9,
+        "min_confidence": 0.0,
+        "AI": "Sorry, I'm not sure how to respond to that."
+    },
+    {
+        "User": "hows the weather today",
+        "intent": "weather",
+        "maxmax_confidence": 13,
+        "min_confidence": 0.0,
+        "AI": "sorry internet not connneted"
+    },
+    {
+        "User": "tell me a good fictional book",
+        "intent": "goodbye",
+        "maxmax_confidence": 10,
+        "min_confidence": 0.0,
+        "AI": "Sorry, I'm not sure how to respond to that."
+    },
+    {
+        "User": "hi",
+        "intent": "greetings",
+        "maxmax_confidence": 66,
+        "min_confidence": 0.0,
+        "AI": "Good evening! How may I assist you?"
+    },
+    {
+        "User": "hi",
+        "intent": "greetings",
+        "maxmax_confidence": 66,
+        "min_confidence": 0.0,
+        "AI": "Hi! What's on your mind?"
+    },
+    {
+        "User": "hi",
+        "intent": "greetings",
+        "maxmax_confidence": 66,
+        "min_confidence": 0.0,
+        "AI": "Hey! What can I do for you?"
+    },
+    {
+        "User": "hola",
+        "intent": "greetings",
+        "maxmax_confidence": 12,
+        "min_confidence": 0.0,
+        "AI": "Sorry, I'm not sure how to respond to that."
+    },
+    {
+        "User": "train",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Done training."
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "time",
+        "intent": "time",
+        "maxmax_confidence": 11,
+        "min_confidence": 0.0,
+        "AI": "Sorry, I'm not sure how to respond to that."
+    },
+    {
+        "User": "time",
+        "intent": "time",
+        "maxmax_confidence": 11,
+        "min_confidence": 0.0,
+        "AI": "Sorry, I'm not sure how to respond to that."
+    },
+    {
+        "User": "what is time",
+        "intent": "calculate",
+        "maxmax_confidence": 22,
+        "min_confidence": 0.0,
+        "AI": "Upon evaluating , the result is "
+    },
+    {
+        "User": "train",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Done training."
+    },
+    {
+        "User": "time",
+        "intent": "greetings",
+        "maxmax_confidence": 12,
+        "min_confidence": 0.0,
+        "AI": "Sorry, I'm not sure how to respond to that."
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "time",
+        "intent": "time",
+        "maxmax_confidence": 11,
+        "min_confidence": 0.0,
+        "AI": "Sorry, I'm not sure how to respond to that."
+    },
+    {
+        "User": "what's the time?",
+        "intent": "time",
+        "maxmax_confidence": 70,
+        "min_confidence": 0.0,
+        "AI": "The current time is 11:48 AM"
+    },
+    {
+        "User": "what's the time?",
+        "intent": "time",
+        "maxmax_confidence": 70,
+        "min_confidence": 0.0,
+        "AI": "The current time is 11:49 AM"
+    },
+    {
+        "User": "what is time",
+        "intent": "calculate",
+        "maxmax_confidence": 22,
+        "min_confidence": 0.0,
+        "AI": "After calculating , the result is "
+    },
+    {
+        "User": "time please",
+        "intent": "time",
+        "maxmax_confidence": 57,
+        "min_confidence": 0.0,
+        "AI": "Right now, it's 11:51 AM"
+    },
+    {
+        "User": "open youtube",
+        "intent": "open_youtube",
+        "maxmax_confidence": 10,
+        "min_confidence": 0.0,
+        "AI": "Sorry, I'm not sure how to respond to that."
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "hello",
+        "intent": "greetings",
+        "maxmax_confidence": 63,
+        "min_confidence": 0.0,
+        "AI": "Good afternoon! What do you need assistance with?"
+    },
+    {
+        "User": "tell me about yourself",
+        "intent": "search_wikipedia",
+        "maxmax_confidence": 25,
+        "min_confidence": 0.0,
+        "AI": "sorry internet not connneted"
+    },
+    {
+        "User": "who are you",
+        "intent": "introduction",
+        "maxmax_confidence": 11,
+        "min_confidence": 0.0,
+        "AI": "Sorry, I'm not sure how to respond to that."
+    },
+    {
+        "User": "introduction",
+        "intent": "positive_feedback",
+        "maxmax_confidence": 7,
+        "min_confidence": 0.0,
+        "AI": "Sorry, I'm not sure how to respond to that."
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "introduction",
+        "intent": "positive_feedback",
+        "maxmax_confidence": 7,
+        "min_confidence": 0.0,
+        "AI": "Sorry, I'm not sure how to respond to that."
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "hi",
+        "intent": "greetings",
+        "maxmax_confidence": 71,
+        "min_confidence": 0.0,
+        "AI": "Hello there! How can I assist you today?"
+    },
+    {
+        "User": "what is the time",
+        "intent": "time",
+        "maxmax_confidence": 17,
+        "min_confidence": 0.0,
+        "AI": "It's 03:43 PM"
+    },
+    {
+        "User": "indroduce yourself",
+        "intent": "greetings",
+        "maxmax_confidence": 9,
+        "min_confidence": 0.0,
+        "AI": "Sorry, I'm not sure how to respond to that."
+    },
+    {
+        "User": "introduce yourself",
+        "intent": "goodbye",
+        "maxmax_confidence": 10,
+        "min_confidence": 0.0,
+        "AI": "Sorry, I'm not sure how to respond to that."
+    },
+    {
+        "User": "open bower",
+        "intent": "open_bower",
+        "maxmax_confidence": 73,
+        "min_confidence": 0.0,
+        "AI": "sorry internet not connneted"
+    },
+    {
+        "User": "open youtube",
+        "intent": "open_youtube",
+        "maxmax_confidence": 70,
+        "min_confidence": 0.0,
+        "AI": "sorry internet not connneted"
+    },
+    {
+        "User": "open paint",
+        "intent": "open",
+        "maxmax_confidence": 61,
+        "min_confidence": 0.0,
+        "AI": "Running "
+    },
+    {
+        "User": "open paint",
+        "intent": "open",
+        "maxmax_confidence": 61,
+        "min_confidence": 0.0,
+        "AI": "Running "
+    },
+    {
+        "User": "open paint",
+        "intent": "open",
+        "maxmax_confidence": 61,
+        "min_confidence": 0.0,
+        "AI": "Launching "
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "What services do you offer?",
+        "intent": "introduction",
+        "maxmax_confidence": 11,
+        "min_confidence": 0.0,
+        "AI": "Sorry, I'm not sure how to respond to that."
+    },
+    {
+        "User": "How do you work?",
+        "intent": "finance_advice",
+        "maxmax_confidence": 7,
+        "min_confidence": 0.0,
+        "AI": "Sorry, I'm not sure how to respond to that."
+    },
+    {
+        "User": "who are you?",
+        "intent": "introduction",
+        "maxmax_confidence": 72,
+        "min_confidence": 0.0,
+        "AI": "I work by processing and analyzing information using advanced algorithms and artificial intelligence techniques. I continuously learn from interactions to improve and provide better assistance tailored to your preferences."
+    },
+    {
+        "User": "who are you",
+        "intent": "introduction",
+        "maxmax_confidence": 15,
+        "min_confidence": 0.0,
+        "AI": "I'm Jarvis, your personal AI assistant here to assist you with tasks, answer questions, and streamline your daily routines."
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "open paint",
+        "intent": "open",
+        "maxmax_confidence": 61,
+        "min_confidence": 0.0,
+        "AI": "Launching "
+    },
+    {
+        "User": "open youtube",
+        "intent": "open_youtube",
+        "maxmax_confidence": 70,
+        "min_confidence": 0.0,
+        "AI": "Starting YouTube..."
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "who are you",
+        "intent": "introduction",
+        "maxmax_confidence": 15,
+        "min_confidence": 0.0,
+        "AI": "I'm Jarvis, an advanced artificial intelligence programmed to learn and assist users. My goal is to make your life easier by providing timely and accurate information while adapting to your needs."
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "who are you",
+        "intent": "introduction",
+        "maxmax_confidence": 14,
+        "min_confidence": 0.0,
+        "AI": "I'm morfis, your personal AI assistant here to assist you with tasks, answer questions, and streamline your daily routines."
+    },
+    {
+        "User": "open games",
+        "intent": "gaming",
+        "maxmax_confidence": 8,
+        "min_confidence": 0.0,
+        "AI": "Sorry, I'm not sure how to respond to that."
+    },
+    {
+        "User": "open whatsapp",
+        "intent": "open",
+        "maxmax_confidence": 63,
+        "min_confidence": 0.0,
+        "AI": "Opening "
+    },
+    {
+        "User": "open paint",
+        "intent": "open",
+        "maxmax_confidence": 63,
+        "min_confidence": 0.0,
+        "AI": "Opening "
+    },
+    {
+        "User": "open cooking on youtube",
+        "intent": "introduction",
+        "maxmax_confidence": 9,
+        "min_confidence": 0.0,
+        "AI": "Sorry, I'm not sure how to respond to that."
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "hi",
+        "intent": "greetings",
+        "maxmax_confidence": 67,
+        "min_confidence": 0.0,
+        "AI": "Hi there!"
+    },
+    {
+        "User": "asdfghj",
+        "intent": "goodbye",
+        "maxmax_confidence": 9,
+        "min_confidence": 0.0,
+        "AI": "Sorry, I'm not sure how to respond to that."
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "hello",
+        "intent": "greetings",
+        "maxmax_confidence": 72,
+        "min_confidence": 0.0,
+        "AI": "Good morning! How can I be of service?"
+    },
+    {
+        "User": "hi",
+        "intent": "greetings",
+        "maxmax_confidence": 67,
+        "min_confidence": 0.0,
+        "AI": "Greetings! How may I help you?"
+    },
+    {
+        "User": "open paint",
+        "intent": "open",
+        "maxmax_confidence": 63,
+        "min_confidence": 0.0,
+        "AI": "Running "
+    },
+    {
+        "User": "open paint",
+        "intent": "open",
+        "maxmax_confidence": 63,
+        "min_confidence": 0.0,
+        "AI": "Starting "
+    },
+    {
+        "User": "open youtube",
+        "intent": "open_youtube",
+        "maxmax_confidence": 56,
+        "min_confidence": 0.0,
+        "AI": "Starting YouTube..."
+    },
+    {
+        "User": "open chatgpt",
+        "intent": "chatgpt_interaction",
+        "maxmax_confidence": 68,
+        "min_confidence": 0.0,
+        "AI": "Sure, let's chat! How can I assist you today?"
+    },
+    {
+        "User": "open chatgpt",
+        "intent": "chatgpt_interaction",
+        "maxmax_confidence": 68,
+        "min_confidence": 0.0,
+        "AI": "Let's engage with ChatGPT for a conversation."
+    },
+    {
+        "User": "open amzone",
+        "intent": "open",
+        "maxmax_confidence": 63,
+        "min_confidence": 0.0,
+        "AI": "Running "
+    },
+    {
+        "User": "indroduce",
+        "intent": "goodbye",
+        "maxmax_confidence": 9,
+        "min_confidence": 0.0,
+        "AI": "Sorry, I'm not sure how to respond to that."
+    },
+    {
+        "User": "who is you",
+        "intent": "calculate",
+        "maxmax_confidence": 17,
+        "min_confidence": 0.0,
+        "AI": "Here is the result: "
+    },
+    {
+        "User": "solve 8+9-2",
+        "intent": "calculate",
+        "maxmax_confidence": 92,
+        "min_confidence": 0.0,
+        "AI": "The answer is "
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "introduction",
+        "intent": "introduction",
+        "maxmax_confidence": 61,
+        "min_confidence": 0.0,
+        "AI": "Nice to meet you! I'm your AI assistant."
+    },
+    {
+        "User": "introduction",
+        "intent": "introduction",
+        "maxmax_confidence": 61,
+        "min_confidence": 0.0,
+        "AI": "I am your AI-powered assistant designed to simplify tasks, provide information, and enhance your productivity. My capabilities include answering questions, providing recommendations, setting reminders, managing schedules, and much more."
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "bye",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    },
+    {
+        "User": "exit",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
+    }
+]

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VoxBot AI — AI Assistant</title>
+  <!-- Tailwind CSS CDN (for quick styling) -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <style>
+    /* Simple scrollbar for chat */
+    .nice-scroll::-webkit-scrollbar { width: 8px; }
+    .nice-scroll::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 8px; }
+    .glass { backdrop-filter: blur(10px); background: rgba(255,255,255,0.6); }
+    .shadow-soft { box-shadow: 0 10px 30px rgba(0,0,0,0.08); }
+    .card { border-radius: 1rem; }
+    .btn { border-radius: 1rem; }
+  </style>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-indigo-50 via-white to-purple-50 text-gray-800">
+  <!-- Header -->
+  <header class="sticky top-0 z-20 glass shadow-soft">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center gap-3">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-7 h-7 text-indigo-600">
+        <path d="M12 2a10 10 0 100 20 10 10 0 000-20zm1 14.93V19h-2v-2.07a8.001 8.001 0 01-6.93-6.93H5v-2H4.07A8.001 8.001 0 0111 5.07V3h2v2.07a8.001 8.001 0 016.93 6.93H19v2h.93A8.001 8.001 0 0113 16.93z"/>
+      </svg>
+      <div class="flex-1">
+        <h1 class="text-xl font-semibold">VoxBot AI — AI Assistant</h1>
+        <p class="text-xs text-gray-500">Voice • Chat • Face Recognition</p>
+      </div>
+      <!-- Backend URL -->
+      <div class="flex items-center gap-2">
+        <label for="backendUrl" class="text-sm text-gray-600">Backend URL</label>
+        <input id="backendUrl" type="text" value="http://localhost:5000" class="px-3 py-2 rounded-lg border border-gray-200 focus:ring-2 focus:ring-indigo-500 focus:outline-none w-64 bg-white" />
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-4 py-6 grid grid-cols-1 lg:grid-cols-3 gap-6">
+    <!-- Chat / Commands Panel -->
+    <section class="lg:col-span-2 card bg-white p-4 shadow-soft">
+      <div class="flex items-center justify-between mb-3">
+        <h2 class="text-lg font-semibold">Chat & Commands</h2>
+        <div class="flex items-center gap-2">
+          <button id="btnFetchFeatures" class="btn px-3 py-2 bg-gray-100 hover:bg-gray-200">Refresh Features</button>
+          <button id="btnClearChat" class="btn px-3 py-2 bg-gray-100 hover:bg-gray-200">Clear</button>
+        </div>
+      </div>
+
+      <div id="chatBox" class="nice-scroll h-96 overflow-y-auto p-3 bg-gray-50 rounded-xl border border-gray-100">
+        <!-- Messages will appear here -->
+      </div>
+
+      <div class="mt-3 flex items-center gap-2">
+        <input id="textInput" type="text" placeholder="Type a command... e.g., set an alarm for 7 am" class="flex-1 px-4 py-3 rounded-xl border border-gray-200 focus:ring-2 focus:ring-indigo-500 focus:outline-none bg-white" />
+        <button id="btnSend" class="btn px-4 py-3 bg-indigo-600 text-white hover:bg-indigo-700">Send</button>
+        <button id="btnMic" class="btn px-4 py-3 bg-gray-900 text-white hover:bg-black flex items-center gap-2" title="Voice input">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M10 2a3 3 0 00-3 3v5a3 3 0 106 0V5a3 3 0 00-3-3z"/><path fill-rule="evenodd" d="M4 8a1 1 0 112 0v2a4 4 0 108 0V8a1 1 0 112 0v2a6 6 0 11-12 0V8z" clip-rule="evenodd"/></svg>
+          <span id="micLabel">Speak</span>
+        </button>
+      </div>
+      <p class="text-xs text-gray-500 mt-2">Tip: Allow microphone permission for voice input. Replies can also be spoken aloud using your browser's speech synthesis.</p>
+
+      <div class="mt-4">
+        <h3 class="text-sm font-medium text-gray-600 mb-1">Available Features</h3>
+        <div id="featuresList" class="text-sm text-gray-700 bg-gray-50 p-3 rounded-lg border border-gray-100">Click “Refresh Features”.</div>
+      </div>
+    </section>
+
+    <!-- Face Recognition / Camera Panel -->
+    <aside class="card bg-white p-4 shadow-soft">
+      <h2 class="text-lg font-semibold mb-3">Face Recognition</h2>
+      <div class="space-y-3">
+        <video id="video" autoplay playsinline class="w-full rounded-xl bg-black"></video>
+        <canvas id="canvas" class="hidden"></canvas>
+        <div class="flex items-center gap-2">
+          <button id="btnStartCam" class="btn px-3 py-2 bg-gray-100 hover:bg-gray-200">Start Camera</button>
+          <button id="btnCapture" class="btn px-3 py-2 bg-indigo-600 text-white hover:bg-indigo-700">Capture & Identify</button>
+        </div>
+        <div class="text-sm text-gray-700">
+          <div class="font-medium">Result:</div>
+          <div id="faceResult" class="mt-1 p-2 bg-gray-50 rounded-lg border border-gray-100">—</div>
+        </div>
+        <div>
+          <label class="block text-sm mb-1">Or upload an image</label>
+          <input id="fileInput" type="file" accept="image/*" class="block w-full text-sm" />
+        </div>
+      </div>
+    </aside>
+  </main>
+
+  <!-- Toast -->
+  <div id="toast" class="fixed bottom-4 left-1/2 transform -translate-x-1/2 hidden bg-gray-900 text-white px-4 py-2 rounded-xl shadow-lg"></div>
+
+  <script>
+    // Helpers
+    const qs = (sel) => document.querySelector(sel);
+    const chatBox = qs('#chatBox');
+    const textInput = qs('#textInput');
+    const backendUrlInput = qs('#backendUrl');
+
+    function toast(msg, ms = 2200) {
+      const el = qs('#toast');
+      el.textContent = msg;
+      el.classList.remove('hidden');
+      setTimeout(() => el.classList.add('hidden'), ms);
+    }
+
+    function addMessage(role, text) {
+      const wrap = document.createElement('div');
+      wrap.className = `my-2 flex ${role === 'user' ? 'justify-end' : 'justify-start'}`;
+      const bubble = document.createElement('div');
+      bubble.className = `${role === 'user' ? 'bg-indigo-600 text-white' : 'bg-white'} border border-gray-200 px-4 py-2 rounded-2xl shadow-sm max-w-[80%]`;
+      bubble.textContent = text;
+      wrap.appendChild(bubble);
+      chatBox.appendChild(wrap);
+      chatBox.scrollTop = chatBox.scrollHeight;
+    }
+
+    async function sendTextCommand(text) {
+      if (!text || !text.trim()) return;
+      addMessage('user', text);
+      textInput.value = '';
+
+      const url = backendUrlInput.value.replace(/\/$/, '') + '/command';
+      try {
+        const res = await fetch(url, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ text })
+        });
+        if (!res.ok) throw new Error('Request failed: ' + res.status);
+        const data = await res.json();
+        const reply = data.reply || data.response || JSON.stringify(data);
+        addMessage('assistant', reply);
+        // Speak the reply if available
+        if ('speechSynthesis' in window && reply) {
+          const utter = new SpeechSynthesisUtterance(reply);
+          window.speechSynthesis.speak(utter);
+        }
+      } catch (err) {
+        console.error(err);
+        addMessage('assistant', '⚠️ Error contacting backend. Check URL & server logs.');
+        toast('Backend error. Is the Flask server running?');
+      }
+    }
+
+    // Events for chat
+    qs('#btnSend').addEventListener('click', () => sendTextCommand(textInput.value));
+    textInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') sendTextCommand(textInput.value);
+    });
+
+    // Voice input
+    let recognizing = false;
+    let recognition;
+    const btnMic = qs('#btnMic');
+    const micLabel = qs('#micLabel');
+
+    function initRecognition() {
+      const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+      if (!SR) {
+        toast('SpeechRecognition not supported in this browser.');
+        return null;
+      }
+      const rec = new SR();
+      rec.lang = 'en-US'; // change if needed
+      rec.interimResults = false;
+      rec.maxAlternatives = 1;
+      rec.onresult = (e) => {
+        const text = e.results[0][0].transcript;
+        sendTextCommand(text);
+      };
+      rec.onend = () => {
+        recognizing = false;
+        micLabel.textContent = 'Speak';
+        btnMic.classList.remove('ring-2', 'ring-green-400');
+      };
+      rec.onerror = (e) => {
+        toast('Mic error: ' + (e.error || 'unknown'));
+      };
+      return rec;
+    }
+
+    btnMic.addEventListener('click', () => {
+      if (!recognition) recognition = initRecognition();
+      if (!recognition) return;
+      if (!recognizing) {
+        recognizing = true;
+        micLabel.textContent = 'Listening…';
+        btnMic.classList.add('ring-2', 'ring-green-400');
+        recognition.start();
+      } else {
+        recognition.stop();
+      }
+    });
+
+    // Fetch features
+    qs('#btnFetchFeatures').addEventListener('click', async () => {
+      const url = backendUrlInput.value.replace(/\/$/, '') + '/features';
+      const box = qs('#featuresList');
+      box.textContent = 'Loading…';
+      try {
+        const res = await fetch(url);
+        if (!res.ok) throw new Error('Status ' + res.status);
+        const data = await res.json();
+        const arr = Array.isArray(data) ? data : (data.features || []);
+        if (!arr.length) { box.textContent = 'No features reported by backend.'; return; }
+        box.innerHTML = '<ul class="list-disc pl-5 space-y-1">' + arr.map(x => `<li>${x}</li>`).join('') + '</ul>';
+      } catch (e) {
+        box.textContent = 'Failed to load features. Check backend.';
+        toast('Could not reach /features');
+      }
+    });
+
+    // Clear chat
+    qs('#btnClearChat').addEventListener('click', () => { chatBox.innerHTML = ''; });
+
+    // Camera & Face recognition
+    const video = qs('#video');
+    const canvas = qs('#canvas');
+    const faceResult = qs('#faceResult');
+
+    async function startCamera() {
+      try {
+        const stream = await navigator.mediaDevices.getUserMedia({ video: true, audio: false });
+        video.srcObject = stream;
+      } catch (e) {
+        toast('Camera permission denied or unavailable');
+      }
+    }
+
+    async function captureAndSend(blob) {
+      const url = backendUrlInput.value.replace(/\/$/, '') + '/face';
+      faceResult.textContent = 'Identifying…';
+      try {
+        const form = new FormData();
+        form.append('image', blob, 'capture.jpg');
+        const res = await fetch(url, { method: 'POST', body: form });
+        if (!res.ok) throw new Error('Status ' + res.status);
+        const data = await res.json();
+        const name = data.name || data.identity || data.result || JSON.stringify(data);
+        faceResult.textContent = name;
+      } catch (e) {
+        console.error(e);
+        faceResult.textContent = 'Failed to identify. Check backend /face.';
+        toast('Face API error');
+      }
+    }
+
+    // Buttons for camera
+    qs('#btnStartCam').addEventListener('click', startCamera);
+
+    qs('#btnCapture').addEventListener('click', () => {
+      if (!video.srcObject) return toast('Start the camera first');
+      const w = video.videoWidth || 640;
+      const h = video.videoHeight || 480;
+      canvas.width = w; canvas.height = h;
+      const ctx = canvas.getContext('2d');
+      ctx.drawImage(video, 0, 0, w, h);
+      canvas.toBlob((blob) => captureAndSend(blob), 'image/jpeg', 0.92);
+    });
+
+    // File upload alternative for face recognition
+    qs('#fileInput').addEventListener('change', (e) => {
+      const file = e.target.files?.[0];
+      if (!file) return;
+      captureAndSend(file);
+      e.target.value = '';
+    });
+
+    // Greet
+    addMessage('assistant', 'Hi! I\'m VoxBot AI. Type or speak a command, or try face recognition on the right.');
+  </script>
+</body>
+</html>

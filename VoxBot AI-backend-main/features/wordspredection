@@ -1,0 +1,34 @@
+from textblob import TextBlob
+
+def check(user_input):
+    user_words = user_input.split()
+    corrected_words = [str(TextBlob(word).correct()) for word in user_words]
+    corrected_sentence = ' '.join(corrected_words)
+    
+    if user_input == corrected_sentence:
+        return None  # If input is correct, return None
+    else:
+        suggestions = []
+        
+        # Suggestion 1: Complete corrected sentence
+        suggestion_1 = f"Did you mean '{corrected_sentence}'?"
+        suggestions.append(suggestion_1)
+        
+        # Suggestion 2: List of individual corrected words
+        suggestion_2 = f"Did you mean this?: {' '.join(corrected_words)}"
+        suggestions.append(suggestion_2)
+        
+        # Suggestion 3: Original and corrected sentence
+        suggestion_3 = f"Original: '{user_input}', Corrected: '{corrected_sentence}'"
+        suggestions.append(suggestion_3)
+        
+        return suggestions
+
+if __name__ == "__main__":
+    user_input = input("Enter your sentence: ")
+    suggestions = check(user_input)
+    if suggestions is None:
+        print("Input is correct.")
+    else:
+        for suggestion in suggestions:
+            print(suggestion)

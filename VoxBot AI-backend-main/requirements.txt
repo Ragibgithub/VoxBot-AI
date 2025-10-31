@@ -1,0 +1,19 @@
+
+nltk
+# wordnet
+gensim
+scikit-learn
+numpy
+opencv-python
+dlib
+# face-recognition
+speechrecognition
+flask
+# socketio
+pillow
+pyautogui
+newsapi
+pyttsx3
+wikipedia
+textblob
+pyaudio
